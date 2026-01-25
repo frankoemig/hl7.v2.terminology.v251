@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "id": "PH_VaccinesAdministeredCVX_CDC_NIP",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.12.292"
+  } ],
+  "version": "1.4.0",
+  "name": "PH_VaccinesAdministeredCVX_CDC_NIP",
+  "title": "Vaccines Administered (2.5.1 - 1.4.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "Table of codes specifying the administered vaccines.   The values are maintained by the US Centers of Disease Control.  The code system is maintained by the CDC, and may be found at URL;  https://phinvads.cdc.gov/vads/ViewCodeSystem.action?id=2.16.840.1.113883.12.292\r\nThe value set is maintained by the CDC and may be found at URL: https://phinvads.cdc.gov/vads/ViewValueSet.action?id=ABDEE003-77C3-48E7-B941-EBF92B6B81FC",
+  "copyright": "HL7 Inc., 2026",
+  "compose": {
+    "include": [ {
+      "system": "http://terminology.hl7.org/v2plusvocab/CodeSystem/PH_VaccinesAdministeredCVX_CDC_NIP",
+      "version": "1"
+    } ]
+  }
+}
