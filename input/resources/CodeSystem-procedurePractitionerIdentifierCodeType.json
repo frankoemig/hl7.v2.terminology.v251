@@ -1,0 +1,170 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "procedurePractitionerIdentifierCodeType",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-procedurePractitionerIdentifierCodeType.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/procedurePractitionerIdentifierCodeType</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.5.1"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0133"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/procedurePractitionerIdentifierCodeType",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.18.59"
+  } ],
+  "version": "1.2.0",
+  "name": "ProcedurePractitionerIdentifierCodeType",
+  "title": "Procedure Practitioner Identifier Type (2.5.1 - 1.2.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "HL7-defined table of concepts which specify the different types of practitioners associated with this procedure.   This set of codes is known to be incomplete.  Note that as of v2.6, this table and the field(s) it was used in was replaced by table 443 used in the ROL segment.  Used in Version 2.x messaging in the PR1 segment, but was discontinued as of 2.6; usage replaced with code system 2.16.840.1.113883.18.283 providerRole.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  } ],
+  "concept": [ {
+    "code": "AN",
+    "display": "Anesthesiologist/Anesthetist",
+    "definition": "Anesthesiologist/Anesthetist",
+    "designation": [ {
+      "language": "de",
+      "value": "Anästhesist"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "AS",
+    "display": "Assistant Surgeon",
+    "definition": "Assistant Surgeon",
+    "designation": [ {
+      "language": "de",
+      "value": "Assistenzchirurg"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "CM",
+    "display": "Certified Nurse Midwife",
+    "definition": "Certified Nurse Midwife",
+    "designation": [ {
+      "language": "de",
+      "value": "Hebamme"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "NP",
+    "display": "Nurse Practitioner",
+    "definition": "Nurse Practitioner",
+    "designation": [ {
+      "language": "de",
+      "value": "Krankenschwester"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "PR",
+    "display": "Procedure MD/ Surgeon",
+    "definition": "Procedure MD/ Surgeon",
+    "designation": [ {
+      "language": "de",
+      "value": "ausführender Arzt (Chirurg)"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "PS",
+    "display": "Primary Surgeon",
+    "definition": "Primary Surgeon",
+    "designation": [ {
+      "language": "de",
+      "value": "verantwortlicher Chirurg"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "RD",
+    "display": "Radiologist",
+    "definition": "Radiologist",
+    "designation": [ {
+      "language": "de",
+      "value": "Radiologe"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "RS",
+    "display": "Resident",
+    "definition": "Resident",
+    "designation": [ {
+      "language": "de",
+      "value": "Krankenhausarzt"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "SN",
+    "display": "Scrub Nurse",
+    "definition": "Scrub Nurse",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  } ]
+}

@@ -1,0 +1,138 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "precision",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-precision.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/precision</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.5.1"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0529"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/precision",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.18.345"
+  } ],
+  "version": "1.0.0",
+  "name": "Precision",
+  "title": "Precision (2.5.1 - 1.0.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "HL7-defined code system of concepts specifying the degree of precision of the time stamp (Y = year, L = month, D = day, H = hour, M = minute, S = second).  Used in HL7 Version 2 messaging in the TS datatype.  Note deprecated in 2.5.1 and retained only for backward compatibility, as the datatypes and architecture for the degree of precision for timestamps was changed.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  } ],
+  "concept": [ {
+    "code": "D",
+    "display": "day",
+    "definition": "day",
+    "designation": [ {
+      "language": "de",
+      "value": "Tag"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.5"
+    } ]
+  }, {
+    "code": "H",
+    "display": "hour",
+    "definition": "hour",
+    "designation": [ {
+      "language": "de",
+      "value": "Stunde"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.5"
+    } ]
+  }, {
+    "code": "L",
+    "display": "month",
+    "definition": "month",
+    "designation": [ {
+      "language": "de",
+      "value": "Monat"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.5"
+    } ]
+  }, {
+    "code": "M",
+    "display": "minute",
+    "definition": "minute",
+    "designation": [ {
+      "language": "de",
+      "value": "Minute"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.5"
+    } ]
+  }, {
+    "code": "S",
+    "display": "second",
+    "definition": "second",
+    "designation": [ {
+      "language": "de",
+      "value": "Sekunde"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.5"
+    } ]
+  }, {
+    "code": "Y",
+    "display": "year",
+    "definition": "year",
+    "designation": [ {
+      "language": "de",
+      "value": "Jahr"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.5"
+    } ]
+  } ]
+}

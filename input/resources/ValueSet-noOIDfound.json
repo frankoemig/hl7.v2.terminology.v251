@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "id": "noOIDfound",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:-"
+  } ],
+  "version": "1.1.0",
+  "name": "NoOIDfound",
+  "title": "Specimen Role (2.5.1 - 1.1.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "tbd: wrong description",
+  "copyright": "HL7 Inc., 2026",
+  "compose": {
+    "include": [ {
+      "system": "http://terminology.hl7.org/v2plusvocab/CodeSystem/noOIDfound",
+      "version": "0"
+    } ]
+  }
+}
